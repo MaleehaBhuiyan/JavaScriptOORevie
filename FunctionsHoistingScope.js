@@ -114,7 +114,7 @@
     // a. CALLBACKS 
     // passing a function in as an argument to another function 
     const myMap = (array, callback) => {
-
+        // debugger // like binding.pry 
         const newArray = []
 
         for (let i = 0; i < array.length; i++){
